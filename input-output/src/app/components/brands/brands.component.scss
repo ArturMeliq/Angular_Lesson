@@ -1,0 +1,20 @@
+.container {
+  margin: 50px auto;
+}
+
+.main_block_brands {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  white-space: nowrap;
+  font-size: 0;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.brand_text {
+  font-size: 200%;
+  line-height: 1.33em;
+  color: #333;
+  margin: 0;
+}

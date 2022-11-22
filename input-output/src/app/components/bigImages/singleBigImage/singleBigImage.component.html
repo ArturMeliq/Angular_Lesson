@@ -1,0 +1,8 @@
+<div class="small_image">
+  <div *ngFor="let item of images?.smallImages" class="image_small_block">
+    <img [src]="item" alt="photo">
+  </div>
+</div>
+<div *ngFor="let item of images?.bigImages" class="image_big_block">
+  <img [src]="item" alt="photo">
+</div>
