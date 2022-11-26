@@ -1,0 +1,9 @@
+<div class="main_block">
+  <div class="container">
+    <div class="input_block">
+      <input [(ngModel)]="inputValue"  class="input" type="text" name="input">
+      <button (click)="handleDataAdd()" class="button">ADD</button>
+    </div>
+    <app-child (deletedElement)="handleDataDelete($event)"  *ngFor="let singleData of data; let ind = index" [index]="ind" [singleDataValue] = "singleData" ></app-child>
+  </div>
+</div>
